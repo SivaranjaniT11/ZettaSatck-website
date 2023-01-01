@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    cursor: pointer; 
+}
+.navbar-nav>li>a:hover{
+    border-bottom: solid 2px #4765a0;
+}
+.carousel-inner .carousel-item h2 i{
+    font-style: normal;
+    background-color:#4A5680;
+    padding:2px;
+}
+.carousel-inner .carousel-item h2{
+    line-height:55px;
+}
+.data-1{
+    padding: 10px 20px;
+}
+.data .data-1:hover{
+    transition-delay: 0.5s ease-in-out;
+    box-shadow: 5px 10px 18px #888888;
+}
+.data i{
+    color: #4765a0;
+}
+.data i:hover{
+    color: rgb(131, 131, 134);
+}
+.card .img-thumbnail{
+    position: relative;
+}
+.card img:hover{
+    transition: 0.5s ease;
+}
+.card:hover{
+    box-shadow: 0 .5rem 1rem rgb(90, 89, 89);
+   transition: 0.5s ease;
+}
+.company i{
+    border: 1px;
+    font-size: 20px;
+}
+.vl {
+    border-left: 2px solid rgba(172, 171, 171, 0.763);
+    height: 100px;
+  }
+  .vl:hover{
+    border-left: 2px solid #4765A0;
+    height: 100px;
+  }
+  .para{
+    background-color: black;
+    width: 100%;
+    opacity: .8;
+  }
+.head {
+    display: block;
+    margin-top: 10px;
+    border-bottom: 1px dotted #e4e9f0;
+}
+.carding {
+    display: block;
+    border-bottom: 1px solid #e9e8e8;
+}
+.head h2,.head h3,.carding h1 {
+    margin: 0 0 -2px 0;
+    padding-bottom: 5px;
+    display: inline-block;
+    border-bottom: 2px solid #4765a0;
+}
+.card .card-1 {
+    background-color: #4765A0;
+    position: absolute;
+    top: 40%; left: 68%;
+}
+.icon-foot i{
+    font-size: 30px;
+}
+.icon-foot i:hover{
+    color: rgb(23, 137, 152);
+}
+.breadcrumbs{
+        overflow: hidden;
+        padding: 10px 0 6px;
+        border-bottom: solid 1px #eee;
+        background: url('images/breadcrumbs.png') repeat;
+        padding: 8px 15px;
+}
+.breadcrumbs h1 {
+    color: #666;
+    font-size: 22px;
+    margin-top: 8px;
+}
+.pull-left {
+    float: left;
+    float: left!important;
+}
+.pull-right {
+    float: right;
+    float: right!important;
+}
+.breadcrumb>li+li:before {
+    content: "/\00a0";
+    padding: 0 5px;
+    color: #ccc;
+}
+.about h2{
+    font-size: 25px;
+}
+.carousel-control-prevs .icon-1{
+  background-color: black;
+}
+.pros h3{
+font-size: 13px;
+}
+.company{
+    background-image: url('images/about-blur.png');
+    height: 60vh;
+}
+.content-1 p{
+    font-size: 13px;
+}
+.content-1 h3{
+    font-size: 20px;
+}
+.content-1 .c-1:hover i{
+    background-color:white;
+    color: #4765a0;
+}
+.contact-icon i{
+    color: #4765A0;
+}
+.forms input ,.forms textarea{
+    width: 75%;
+}
+
+@media (max-width: 576px) {
+    .carousel-inner .carousel-item h2 i{
+        font-size: 15px;
+    }
+    .carousel-inner .carousel-item h2{
+        position: absolute;
+        left:25%;
+        top: 25%;
+        line-height:25px;
+    }
+    .carousel-inner .carousel-item img{
+        display: none;
+    }
+    .carousel-inner .carousel-item p{
+        display: none;
+    }
+    .navbar-brand .img-3{
+        font-size:10px;
+    }
+    .navbar-brand img{
+        width:8%;
+    }
+    .text-box p{
+        font-size: 13px;
+    }
+    .company i{
+        font-size:12px;
+    }
+    .company h3, .company p{
+        font-size:8px;
+    }
+    footer .head{
+        font-size:10px;
+    }
+    footer p{
+        font-size: 10px;
+    }
+    footer h3{
+        margin-top:10px;
+    }
+    footer .icon-foot i{
+        margin-top:0px;
+        font-size:15px;
+    }
+    footer .balnk{
+        font-size: 12px;
+    }
+    .forms input ,.forms textarea{
+        width: 100%;
+    }
+ .breadcrumbs .pull-right{
+    margin-top: 10px;
+    }
+}
